@@ -249,18 +249,6 @@ footer {
     font-size: 14px;
 }
 
-@media screen and (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-    }
-
-    .footer-nav,
-    .footer-links,
-    .footer-social {
-        margin-bottom: 20px;
-    }
-}
-
 /* SOBRE */
 .cinza {
     margin-top:150px ;
@@ -328,4 +316,104 @@ footer {
 .input-cadastro{
     height: 400px;
     flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+    }
+    body{
+        padding: 10px;
+    }
+
+    .footer-nav,
+    .footer-links,
+    .footer-social {
+        margin-bottom: 20px;
+    }
+
+    header{
+        padding: 0 !important;
+    }
+
+    header img{
+        width: 20%;
+    }
+    .paddingFoda{
+        padding: 0;
+    }
+
+    main{
+        margin-top:50px ;
+    }
+
+    .introducao h1{
+        font-size: 1.6rem;
+    }
+
+    .introducao p{
+        font-size: .8rem;
+    }
+
+    .branco{
+        display: block;
+    }
+
+    .branco img{
+        display: none;
+    }
+
+    section{
+        padding: 0;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    #textoDepoimentos{
+        font-size: 2rem;
+    }
+
+    .card{
+        margin-top: 30px;
+    }
+
+    .card h3{
+        font-size: .9rem;
+    }
+
+    .card img{
+        display: flex;
+        align-self: flex-start;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    section p{
+        margin-top: 30px;
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .depoimentos{
+        padding: 0;
+    }
+
+    .depoimentos h1{
+        font-size: 1.3rem;
+    }
+
+    #imagemVelhos{
+        width: 80%;
+    }
+
+    .contato{
+        padding: 0;
+    }
+
+    .contato h1{
+        width: 100px;
+    }
 }
