@@ -54,12 +54,14 @@ main img {
 .introducao {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .introducao p {
     width: 300px;
     text-align: right;
     opacity: 0.5;
+    margin-top: 10px;
 }
 
 .paddingFoda {
@@ -80,12 +82,22 @@ section {
 }
 
 section p {
-    font-size: 1.3rem;
-    width: 30%;
+    font-size: 1rem;
+    width: 50%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 22px;
 }
 
 section img {
-    width: 35%;
+    width: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 section h2 {
@@ -115,7 +127,7 @@ section h6 {
 .card {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -126,12 +138,11 @@ section h6 {
 
 .card p {
     font-size: .9rem;
-    margin-bottom: 30px;
     opacity: 0.6;
 }
 
 .card img {
-    width: 35%;
+    width: 30%;
     margin-right: 60px;
 }
 
@@ -251,7 +262,7 @@ footer {
 
 /* SOBRE */
 .cinza {
-    margin-top:150px ;
+    margin-top: 150px;
     background-color: rgb(238, 238, 238);
     display: flex;
     justify-content: center;
@@ -259,22 +270,49 @@ footer {
     padding: 100px;
 }
 
-.cinza img{
+.devs {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.cinza img {
     width: 70%;
+}
+
+.desenvolvedores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.desenvolvedores h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.desenvolvedores p {
+    font-size: .9rem;
+    opacity: 0.6;
+}
+
+.desenvolvedores img {
+    width: 20%;
+    margin-right: 60px;
 }
 
 /* login */
 
 .login {
-    padding: 100px;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 30px;
     display: flex;
+    justify-content: center;
     flex-direction: row;
 }
 
 .login h1 {
-    width: 600px;
+    width: 100%;
     margin-bottom: 50px;
 }
 
@@ -283,37 +321,37 @@ footer {
     margin-bottom: 25px;
 }
 
-.input-container1{
+.input-container1 {
     display: flex;
     flex-direction: row;
 }
 
-.inputSobre{
+.inputSobre {
     margin: 20px;
     width: 300px !important;
     height: 30px !important;
-    height:auto ;
-    
+    height: auto;
+
 }
 
-.inputSobre::placeholder{
+.inputSobre::placeholder {
     font-size: 16px;
     display: flex;
-    
+
 }
 
-.input-sobre{
+.input-sobre {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.input-sobre h6{
+.input-sobre h6 {
     margin-top: 40px;
 }
 
-.input-cadastro{
+.input-cadastro {
     height: 400px;
     flex-wrap: wrap;
 }
@@ -323,7 +361,8 @@ footer {
     .footer-content {
         flex-direction: column;
     }
-    body{
+
+    body {
         padding: 10px;
     }
 
@@ -333,87 +372,88 @@ footer {
         margin-bottom: 20px;
     }
 
-    header{
+    header {
         padding: 0 !important;
     }
 
-    header img{
+    header img {
         width: 20%;
     }
-    .paddingFoda{
+
+    .paddingFoda {
         padding: 0;
     }
 
-    main{
-        margin-top:50px ;
+    main {
+        margin-top: 50px;
     }
 
-    .introducao h1{
+    .introducao h1 {
         font-size: 1.6rem;
     }
 
-    .introducao p{
+    .introducao p {
         font-size: .8rem;
     }
 
-    .branco{
+    .branco {
         display: block;
     }
 
-    .branco img{
+    .branco img {
         display: none;
     }
 
-    section{
+    section {
         padding: 0;
         flex-direction: column;
         margin-top: 30px;
     }
 
-    #textoDepoimentos{
+    #textoDepoimentos {
         font-size: 2rem;
     }
 
-    .card{
+    .card {
         margin-top: 30px;
     }
 
-    .card h3{
+    .card h3 {
         font-size: .9rem;
     }
 
-    .card img{
+    .card img {
         display: flex;
         align-self: flex-start;
     }
 
-    input{
+    input {
         width: 100%;
     }
 
-    section p{
+    section p {
         margin-top: 30px;
         font-size: 1rem;
         width: 100%;
     }
 
-    .depoimentos{
+    .depoimentos {
         padding: 0;
     }
 
-    .depoimentos h1{
+    .depoimentos h1 {
         font-size: 1.3rem;
     }
 
-    #imagemVelhos{
+    #imagemVelhos {
         width: 80%;
     }
 
-    .contato{
+    .contato {
         padding: 0;
     }
 
-    .contato h1{
+    .contato h1 {
         width: 100px;
     }
 }
