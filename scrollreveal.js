@@ -1,66 +1,71 @@
-ScrollReveal().reveal('.introducao', {
-  origin: 'left',
-  distance: '500px',
-  duration: 1000,
-  reset: false
+ScrollReveal().reveal('#servicosAssistencia', {
+    origin: 'right',
+    distance: '400px',
+    duration: 700
 });
-ScrollReveal().reveal('#imagemVelhos', {
-  origin: 'left',
-  distance: '700px',
-  duration: 1000,
-  reset: false
+ScrollReveal().reveal('#noImpatriados', {
+    origin: 'left',
+    distance: '400px',
+    duration: 700
 });
-ScrollReveal().reveal('#textoimagemVelhos', {
-  origin: 'right',
-  distance: '700px',
-  duration: 1000,
-  reset: false
+ScrollReveal().reveal('#minaTriste', {
+    scale: 0.6,
+    duration: 700
 });
-ScrollReveal().reveal('.imagemVelho', {
-  scale: 0.5,
-  duration: 1000,
-  reset: false
+ScrollReveal().reveal('.site-heading', {
+    duration: 700
+})
+ScrollReveal().reveal('#crincasTriste', {
+    scale: 0.6,
+    duration: 700
 });
-ScrollReveal().reveal('.textin', {
-  origin: 'right',
-  distance: '700px',
-  duration: 1000,
-  reset: false
+ScrollReveal().reveal('#sobre', {
+    origin: 'bottom',
+    distance: '200px',
+    duration: 700
 });
-ScrollReveal().reveal('#depoimentosImagens', {
-  origin: 'bottom',
-  distance: '700px',
-  duration: 1000,
-  reset: false
+ScrollReveal().reveal('#quadradao', {
+    scale: 0.6,
+    duration: 700
 });
-ScrollReveal().reveal('#textoDepoimentos', {
-  duration: 1000,
-  reset: false
-});
-ScrollReveal().reveal('#cinza', {
-  scale: 0.5,
-  duration: 1000,
-  reset: false
+ScrollReveal().reveal('#quadradao', {
+    scale: 0.6,
+    duration: 700
 });
 
-
-ScrollReveal().reveal('.textinhoContato', {
-  origin: 'left',
-  distance: '1000px',
-  duration: 1000,
-  reset: false
+ScrollReveal().reveal('#form1', {
+    origin: 'left',
+    distance: '200px',
+    delay: 200,
+    duration: 700
 });
-ScrollReveal().reveal('.input-sobre', {
-  origin: 'right',
-  distance: '1000px',
-  duration: 1000,
-  reset: false
+ScrollReveal().reveal('#form2', {
+    origin: 'right',
+    distance: '200px',
+    delay: 250,
+    duration: 700
 });
-
-ScrollReveal().reveal('.rapaz', {
-  origin: 'right',
-  distance: '700px',
-  duration: 1000,
-  reset: false
+ScrollReveal().reveal('#form3', {
+    origin: 'left',
+    distance: '200px',
+    delay: 300,
+    duration: 700
 });
-
+ScrollReveal().reveal('#form4', {
+    origin: 'right',
+    distance: '200px',
+    delay: 350,
+    duration: 700
+});
+ScrollReveal().reveal('#form5', {
+    origin: 'left',
+    distance: '200px',
+    delay: 400,
+    duration: 700
+});
+ScrollReveal().reveal('#form6', {
+    origin: 'bottom',
+    distance: '200px',
+    delay: 450,
+    duration: 700
+});

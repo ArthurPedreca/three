@@ -21,10 +21,11 @@
 <body>
     <header>
         <h1 class="site-heading text-center text-faded d-none d-lg-block">
-            <span class="site-heading-upper text-primary mb-3">Apoio e Inclusão</span>
+            <span class="site-heading-upper text-primary mb-3">Serviços Dedicados</span>
             <span class="site-heading-lower">Impatriados</span>
         </h1>
     </header>
+    <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
         <div class="container">
             <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Impatriados</a>
@@ -42,34 +43,45 @@
             </div>
         </div>
     </nav>
-    <section class="page-section about-heading">
+    <section class="page-section cta">
         <div class="container">
-            <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0"
-                src="https://images.pexels.com/photos/5156797/pexels-photo-5156797.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                alt="Sobre Impatriados" id="crincasTriste" />
-            <div class="about-heading-content">
-                <div class="row">
-                    <div class="col-xl-9 col-lg-10 mx-auto">
-                        <div class="bg-faded rounded p-5" id="sobre">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Conectando Culturas, Criando Oportunidades</span>
-                                <span class="section-heading-lower">Sobre a Impatriados</span>
-                            </h2>
-                            <p>A Impatriados foi criada para apoiar refugiados e migrantes na construção de uma nova
-                                vida. Nossa missão é oferecer recursos, treinamento e assistência para integrar essas
-                                comunidades às sociedades que as acolhem. Estamos comprometidos em promover a inclusão e
-                                o desenvolvimento sustentável através da participação ativa dos refugiados em nossa
-                                plataforma.</p>
-                            <p class="mb-0">
-                                Convidamos você a se juntar a nós e apoiar nossa causa. Juntos, podemos fazer a
-                                diferença na vida de muitos que procuram um novo começo.
-                            </p>
-                        </div>
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="cta-inner bg-faded text-center rounded" id="quadradao">
+                        <h2 class="section-heading mb-4">
+                            <span class="section-heading-upper">Serviços Personalizados</span>
+                            <span class="section-heading-lower">Encontre Ajuda Específica</span>
+                        </h2>
+                        <form id="service-form">
+                            <div class="form-group" id="form1">
+                                <label for="name">Nome Completo</label>
+                                <input type="text" class="form-control" id="name" placeholder="Seu nome" required>
+                            </div>
+                            <div class="form-group" id="form2">
+                                <label for="age">Idade</label>
+                                <input type="number" class="form-control" id="age" placeholder="Sua idade" required>
+                            </div>
+                            <div class="form-group" id="form3">
+                                <label for="country">País de Origem</label>
+                                <input type="text" class="form-control" id="country" placeholder="Seu país de origem" required>
+                            </div>
+                            <div class="form-group" id="form4">
+                                <label for="languages">Idiomas Falados</label>
+                                <input type="text" class="form-control" id="languages" placeholder="Idiomas que você fala" required>
+                            </div>
+                            <div class="form-group" id="form5">
+                                <label for="needs">Principais Necessidades</label>
+                                <textarea class="form-control" id="needs" rows="3" placeholder="Descreva suas principais necessidades" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="form6">Enviar Informações</button>
+                        </form>
+                        <p class="mt-4">Após o envio das suas informações, analisaremos suas necessidades e indicaremos os serviços mais adequados para auxiliar você em sua jornada.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    ...
     <footer class="footer text-faded text-center py-5">
         <div class="container">
             <p class="m-0 small">Direitos Autorais &copy; Impatriados 2023</p>
@@ -81,5 +93,6 @@
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="/scrollreveal.js"></script>
 </body>
+
 
 </html>
