@@ -52,26 +52,26 @@
                             <span class="section-heading-upper">Serviços Personalizados</span>
                             <span class="section-heading-lower">Encontre Ajuda Específica</span>
                         </h2>
-                        <form id="service-form">
+                        <form id="service-form" method="post" action="/cadastrousuario">
                             <div class="form-group" id="form1">
-                                <label for="name">Nome Completo</label>
-                                <input type="text" class="form-control" id="name" placeholder="Seu nome" required>
+                                <label for="nomeCompleto">Nome Completo</label>
+                                <input type="text" class="form-control" name="nomeCompleto" placeholder="Seu nome" required>
                             </div>
                             <div class="form-group" id="form2">
-                                <label for="age">Idade</label>
-                                <input type="number" class="form-control" id="age" placeholder="Sua idade" required>
+                                <label for="idade">Idade</label>
+                                <input type="number" class="form-control" name="idade" placeholder="Sua idade" required>
                             </div>
                             <div class="form-group" id="form3">
-                                <label for="country">País de Origem</label>
-                                <input type="text" class="form-control" id="country" placeholder="Seu país de origem" required>
+                                <label for="paisOrigem">País de Origem</label>
+                                <input type="text" class="form-control" name="paisOrigem" placeholder="Seu país de origem" required>
                             </div>
                             <div class="form-group" id="form4">
-                                <label for="languages">Idiomas Falados</label>
-                                <input type="text" class="form-control" id="languages" placeholder="Idiomas que você fala" required>
+                                <label for="idiomasFalados">Idiomas Falados</label>
+                                <input type="text" class="form-control" name="idiomasFalados" placeholder="Idiomas que você fala" required>
                             </div>
                             <div class="form-group" id="form5">
-                                <label for="needs">Principais Necessidades</label>
-                                <textarea class="form-control" id="needs" rows="3" placeholder="Descreva suas principais necessidades" required></textarea>
+                                <label for="principaisNecessidades">Principais Necessidades</label>
+                                <textarea class="form-control" name="principaisNecessidades" rows="3" placeholder="Descreva suas principais necessidades" required></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary" id="form6">Enviar Informações</button>
                         </form>
@@ -81,7 +81,6 @@
             </div>
         </div>
     </section>
-    ...
     <footer class="footer text-faded text-center py-5">
         <div class="container">
             <p class="m-0 small">Direitos Autorais &copy; Impatriados 2023</p>

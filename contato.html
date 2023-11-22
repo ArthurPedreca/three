@@ -50,29 +50,28 @@
                         <span class="section-heading-upper">Página de contato</span>
                         <span class="section-heading-lower">Insira seus Dados.</span>
                     </h2>
-                    <form id="login-form">
+                    <form id="login-form" action="/contato" method="post">
                         <div class="form-group" id="form1">
-                            <label for="username">Nome</label>
-                            <input type="text" class="form-control" id="username"
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" name="nome"
                                 placeholder="Seu nome de usuário ou e-mail" required>
                         </div>
                         <div class="form-group" id="form2">
-                            <label for="password">Senha</label>
-                            <input type="password" class="form-control" id="password" placeholder="Sua senha" required>
+                            <label for="telefone">Telefone</label>
+                            <input type="text" class="form-control" name="telefone" placeholder="Seu telefone" required>
                         </div>
                         <div class="form-group" id="form3">
-                            <label for="password">Email</label>
-                            <input type="password" class="form-control" id="password" placeholder="Seu Email" required>
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" name="email" placeholder="Seu Email" required>
                         </div>
                         <button type="submit" class="btn btn-primary" id="form6">Entrar</button>
                     </form>
                     <p class="mt-4">Insira suas informações de login para acessar serviços personalizados e suporte
                         dedicado para refugiados e migrantes.</p>
 
+                </div>
             </div>
-        </div>
     </section>
-    ...
     <footer class="footer text-faded text-center py-5">
         <div class="container">
             <p class="m-0 small">Direitos Autorais &copy; Impatriados 2023</p>
